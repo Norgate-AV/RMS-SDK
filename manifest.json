@@ -1,7 +1,7 @@
 {
     "name": "RMS-SDK",
     "description": "AMX modules for RMS integration",
-    "version": "4.7.18",
+    "version": "4.7.21",
     "license": "MIT",
     "files": [
         "src/module/*.axs",

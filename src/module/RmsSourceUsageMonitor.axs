@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.7.18)
+//             AMX Resource Management Suite  (4.7.21)
 //
 //*********************************************************************
 /*
@@ -128,7 +128,7 @@ DEFINE_CONSTANT
 
 CHAR MONITOR_NAME[]       = 'RMS Source Usage Monitor';
 CHAR MONITOR_DEBUG_NAME[] = 'RmsSourceUsageMon';
-CHAR MONITOR_VERSION[]    = '4.7.18';
+CHAR MONITOR_VERSION[]    = '4.7.21';
 
 // source usage send command headers
 CHAR RMS_SOURCE_USAGE_COMMAND_ASSIGN_SOURCE[] = 'SOURCE.ASSIGN';
@@ -268,7 +268,7 @@ DEFINE_FUNCTION RmsEventAssetRegistered(CHAR assetClientKey[], LONG assetId, CHA
 
   // lookup the source asset
   index = GetSourceAssetIndex(registeredAssetDps);
-  IF (index == 0) 
+  IF (index == 0)
   {
     index = GetSourceAssetIndex(assetClientKey);
   }
@@ -288,7 +288,7 @@ DEFINE_FUNCTION RmsEventAssetRegistered(CHAR assetClientKey[], LONG assetId, CHA
     IF (sourceAssets[index].assetClientKey != assetClientKey)
     {
 	    RETURN;
-    }    
+    }
 
     IF(newAssetRegistration)
     {
@@ -332,7 +332,7 @@ DEFINE_FUNCTION RmsEventAssetRegistered(CHAR assetClientKey[], LONG assetId, CHA
       IF (sourceAssets[index].usageMinutes > 0)
       {
         usageHours = sourceAssets[index].usageMinutes / 60;
-        
+
         // send an incremental update to the source usage parameter for this asset
         IF(RmsAssetParameterUpdateValue(assetClientKey,
                                         RMS_ASSET_PARAM_KEY_SOURCE_USAGE,

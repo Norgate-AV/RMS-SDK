@@ -1,5 +1,25 @@
 # Changelog
 
+## [4.7.21](https://github.com/Norgate-AV/RMS-SDK/compare/v4.7.18...v4.7.21) (2024-08)
+
+### Prerequisites
+
+- RMS Server version 4.8.3.1 or greater
+- NX based controller (Controller Firmware v1.4.90 or greater)
+- At least 64MB allocated to Duet memory
+
+### Changes in this release
+
+- Fixed the DVX Switcher's 'Internal Temperature' parameter issue, which was not reporting correctly in RMS
+- Disabled the 'Track Changes' for the 'Fan Speed 1' and 'Fan Speed 2' parameters of DVX Switchers
+- Fixed the Side LED flashing issue for Varia touch panels, when configured as RMS Scheduling Panels
+
+### Known Issues
+
+- If DVX Switchers(NCITE, DVX-HD or DVX-4K) were registered already with previous versions of NX RMS SDK (v4.7.20 or earlier),
+  the registered 'Operating Temperature > 50°C' Parameter Threshold should be removed, as a new Parameter Threshold ('Operating Temperature > 70°C') will be registered.
+- If Touch Panel or DVX devices were previously registered with NetLinx monitoring modules, the registered control methods should be removed before registration of new devices. Any control macros referencing the removed control methods will need to be updated.
+
 ## [4.7.18](https://github.com/Norgate-AV/RMS-SDK/compare/v4.7.18) (2021-10-12)
 
 ### Prerequisites

@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.7.18)
+//             AMX Resource Management Suite  (4.7.21)
 //
 //*********************************************************************
 /*
@@ -54,7 +54,7 @@ DEFINE_CONSTANT
 
 CHAR MONITOR_NAME[]       = 'RMS Virtual Device Monitor';
 CHAR MONITOR_DEBUG_NAME[] = 'RmsVirtualDevMon';
-CHAR MONITOR_VERSION[]    = '4.7.18';
+CHAR MONITOR_VERSION[]    = '4.7.21';
 CHAR MONITOR_ASSET_TYPE[] = 'Unknown';
 CHAR MONITOR_ASSET_NAME[] = '';
 

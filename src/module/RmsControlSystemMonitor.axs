@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.7.18)
+//             AMX Resource Management Suite  (4.7.21)
 //
 //*********************************************************************
 /*
@@ -51,7 +51,7 @@ DEFINE_CONSTANT
 
 CHAR MONITOR_NAME[]       = 'RMS Control System Monitor';
 CHAR MONITOR_DEBUG_NAME[] = 'RmsControlSystemMon';
-CHAR MONITOR_VERSION[]    = '4.7.18';
+CHAR MONITOR_VERSION[]    = '4.7.21';
 CHAR MONITOR_ASSET_TYPE[] = '';
 CHAR MONITOR_ASSET_NAME[] = '';
 
@@ -332,17 +332,15 @@ DATA_EVENT[dvMonitoredDevice]
 {
   ONLINE:
   {
-	
+
   }
   OFFLINE:
   {
-	
+
   }
 }
-
 
 (***********************************************************)
 (*                     END OF PROGRAM                      *)
 (*        DO NOT PUT ANY CODE BELOW THIS COMMENT           *)
 (***********************************************************)
-

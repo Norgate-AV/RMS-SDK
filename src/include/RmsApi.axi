@@ -1,7 +1,7 @@
 
 //*********************************************************************
 //
-//             AMX Resource Management Suite  (4.7.18)
+//             AMX Resource Management Suite  (4.7.21)
 //
 //*********************************************************************
 /*
@@ -4597,5 +4597,3 @@ DEFINE_FUNCTION CHAR RmsSetDeviceAutoRegisterFilter(DEV devices[]){
 }
 
 #END_IF // __RMS_API__
-
-

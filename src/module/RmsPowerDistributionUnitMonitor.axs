@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.7.18)
+//             AMX Resource Management Suite  (4.7.21)
 //
 //*********************************************************************
 /*
@@ -90,7 +90,7 @@ DEFINE_CONSTANT
 
 CHAR MONITOR_NAME[]       = 'RMS Power Distribution Unit Monitor';
 CHAR MONITOR_DEBUG_NAME[] = 'RmsPDUMon';
-CHAR MONITOR_VERSION[]    = '4.7.18';
+CHAR MONITOR_VERSION[]    = '4.7.21';
 CHAR MONITOR_ASSET_TYPE[] = 'PowerDevice';
 CHAR MONITOR_ASSET_NAME[] = 'NXA-PDU-1508-8';
 
@@ -294,7 +294,7 @@ DEFINE_FUNCTION RmsEventRelayAssetRegistered(CHAR registeredAssetClientKey[], LO
   // perform a lookup of the device client key
   // string in the power monitored device array
   index = RmsDeviceStringInList(registeredAssetClientKey,dvPowerMonitoredAssets);
-  if (index == 0) 
+  if (index == 0)
   {
     index = RmsDeviceStringInList(registeredAssetDps,dvPowerMonitoredAssets);
   }

@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.7.18)
+//             AMX Resource Management Suite  (4.7.21)
 //
 //*********************************************************************
 /*
@@ -62,7 +62,7 @@ DEFINE_CONSTANT
 
 CHAR MONITOR_NAME[]       = 'RMS System Power Monitor';
 CHAR MONITOR_DEBUG_NAME[] = 'RmsSystemPowerMon';
-CHAR MONITOR_VERSION[]    = '4.7.18';
+CHAR MONITOR_VERSION[]    = '4.7.21';
 
 
 // Including the RmsEventListener.AXI will listen for RMS

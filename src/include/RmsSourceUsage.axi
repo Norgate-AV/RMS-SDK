@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.7.18)
+//             AMX Resource Management Suite  (4.7.21)
 //
 //*********************************************************************
 /*
@@ -65,11 +65,6 @@ DEFINE_DEVICE
 (***********************************************************)
 (*                INCLUDE DEFINITIONS GO BELOW             *)
 (***********************************************************)
-
-// this is a compiler guard to ensure that only one copy
-// of this include file is incorporated in the final compilation
-#IF_NOT_DEFINED __RMS_SOURCE_USAGE__
-#DEFINE __RMS_SOURCE_USAGE__
 
 // Include the RMS API constants & helper functions
 #INCLUDE 'RmsApi';
@@ -262,7 +257,7 @@ DEFINE_MODULE 'RmsSourceUsageMonitor' mdlRmsSourceUsageMonitorMod(vdvRMS,vdvRMSS
 (***********************************************************)
 DEFINE_START
 
-// #WARN 'README: RMS source usage assignment requirements'
+#WARN 'README: RMS source usage assignment requirements'
 //
 // THE NETLINX PROGRAMMER WILL NEED TO IMPLEMENT THE ASSIGNMENT
 // OF SOURCES TO RMS ASSET DEVICES AT THE STARTUP OF THE NETLINX
@@ -305,7 +300,7 @@ DEFINE_START
 */
 
 
-  // #WARN 'README: RMS source usage programming notes'
+  #WARN 'README: RMS source usage programming notes'
   // ----------------------------------------------------------------------
   //
   // you are responsible for manually ACTIVATING and DEACTIVATING
@@ -346,5 +341,3 @@ DEFINE_START
 (*                     END OF PROGRAM                      *)
 (*        DO NOT PUT ANY CODE BELOW THIS COMMENT           *)
 (***********************************************************)
-
-#END_IF // __RMS_SOURCE_USAGE__

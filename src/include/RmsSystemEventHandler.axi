@@ -1,6 +1,6 @@
 //*********************************************************************
 //
-//             AMX Resource Management Suite  (4.7.18)
+//             AMX Resource Management Suite  (4.7.21)
 //
 //*********************************************************************
 /*
@@ -239,4 +239,3 @@ DEFINE_FUNCTION RmsEventSystemModeChangeRequest(CHAR newMode[])
 (*                     END OF PROGRAM                      *)
 (*        DO NOT PUT ANY CODE BELOW THIS COMMENT           *)
 (***********************************************************)
-

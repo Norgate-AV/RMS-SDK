@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.7.18)
+//             AMX Resource Management Suite  (4.7.21)
 //
 //*********************************************************************
 /*
@@ -52,7 +52,7 @@ DEFINE_CONSTANT
 
 CHAR MONITOR_NAME[]       = 'RMS NetLinx Device Monitor '; // * exactly 27 characters
 CHAR MONITOR_DEBUG_NAME[] = 'RmsNLDevMon';
-CHAR MONITOR_VERSION[]    = '4.7.18';
+CHAR MONITOR_VERSION[]    = '4.7.21';
 CHAR MONITOR_ASSET_TYPE[] = 'Unknown';
 CHAR MONITOR_ASSET_NAME[] = ''; // populate this property to override the asset name
                                 // leave it empty to auto-populate the device name
@@ -319,7 +319,6 @@ DATA_EVENT[dvMonitoredDevice]
     RmsAssetOnlineParameterUpdate(assetClientKey,DEVICE_ID(dvMonitoredDevice))
   }
 }
-
 
 (***********************************************************)
 (*                     END OF PROGRAM                      *)
