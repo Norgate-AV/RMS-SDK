@@ -20,7 +20,8 @@ For more information, see the individual `LICENSE` files in the respective direc
 [![CI](https://github.com/Norgate-AV/RMS-SDK/actions/workflows/main.yml/badge.svg)](https://github.com/Norgate-AV/RMS-SDK/actions/workflows/main.yml)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Static Badge](https://img.shields.io/badge/License-Proprietary-blue)](./src/LICENSE)
+[![Static Badge](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
 
 ---
 
@@ -32,7 +33,6 @@ SDK for integrating AMX systems with RMS.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Installation :zap:](#installation-zap)
-- [Usage :rocket:](#usage-rocket)
 - [Team :soccer:](#team-soccer)
 - [LICENSE :balance_scale:](#license-balance_scale)
 
@@ -40,14 +40,12 @@ SDK for integrating AMX systems with RMS.
 
 ## Installation :zap:
 
-<!-- This module can be installed using [Scoop](https://scoop.sh/).
+This module can be installed using [Scoop](https://scoop.sh/).
 
 ```powershell
 scoop bucket add norgateav-amx https://github.com/Norgate-AV/scoop-norgateav-amx
-scoop install amx-rms-sdk
-``` -->
-
-## Usage :rocket:
+sudo scoop install amx-rms-sdk
+```
 
 ## Team :soccer:
 
