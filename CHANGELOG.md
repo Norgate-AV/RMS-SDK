@@ -1,6 +1,6 @@
 # Changelog
 
-## [4.7.18](https://github.com/Norgate-AV/RMS-SDK/compare/v4.7.18) (2021-12-10)
+## [4.7.18](https://github.com/Norgate-AV/RMS-SDK/compare/v4.7.18) (2021-10-12)
 
 ### Prerequisites
 
