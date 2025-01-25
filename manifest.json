@@ -1,0 +1,22 @@
+{
+    "name": "RMS-SDK",
+    "description": "AMX modules for RMS integration",
+    "version": "4.7.18",
+    "license": "MIT",
+    "files": [
+        "src/module/*.axs",
+        "src/module/*.tko",
+        "src/include/*.axi",
+        "src/java/*.jar",
+        "SymLink.ps1",
+        "LICENSE",
+        "README.md"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Norgate-AV/RMS-SDK.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Norgate-AV/RMS-SDK/issues"
+    }
+}

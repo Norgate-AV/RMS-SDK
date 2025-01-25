@@ -1,0 +1,7 @@
+build:
+  nlrc:
+    includePath:
+      - ./src/include
+    modulePath:
+      - ./src/java
+      - ./src/module
