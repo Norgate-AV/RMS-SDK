@@ -30,7 +30,7 @@
     },
     "devDependencies": {
         "@commitlint/cli": "^19.6.1",
-        "@commitlint/config-conventional": "^19.6.0",
+        "@commitlint/config-conventional": "^19.7.1",
         "@norgate-av/dropnode": "^1.0.0",
         "@norgate-av/genlinx": "^2.6.1",
         "commitizen": "^4.3.1",
